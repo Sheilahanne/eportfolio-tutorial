@@ -19,7 +19,7 @@ h6 span {
 }
 
 p {
-    line-height: 1.5;
+  line-height: 1.5;
   font-size: 16px;
 }
 
@@ -52,10 +52,6 @@ li {
 
 h1 {
   font-size: 36px;
-}
-
-section:nth-child(even) {
-  background-color: #501f1f;
 }
 
 .section__title {
@@ -175,6 +171,11 @@ nav {
 
 /* TECH STACK */
 
+.language__list {
+  display: flex;
+  flex-direction: row;
+}
+
 .language__img {
   width: 100%;
   max-width: 100%;
@@ -185,4 +186,8 @@ nav {
   justify-content: center;
   align-items: center;
   width: 25%;
+}
+
+#languages {
+  background-color: #f8f8f8;
 }

@@ -171,23 +171,72 @@ nav {
 
 /* TECH STACK */
 
+.language,
+.language-2 {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 48px;
+  margin: 0 auto;
+  position: relative;
+}
+
 .language__list {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.language-row {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
 }
 
 .language__img {
   width: 100%;
+  height: auto;
   max-width: 100%;
+  padding: 24px;
+  flex-wrap: wrap;
+  transition: all 300ms ease;
 }
 
-.language__img--wrapper {
+.language__img:hover {
+  filter: brightness(80%);
+  opacity: 0.86;
+  transform: scale(0.9);
+
+}
+
+.language__img--wrapper,
+.language__img--wrapper-2 {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 25%;
+  text-align: center;
+  flex: 1;
+  position: relative;
+}
+
+.language__img--wrapper img {
+  width: 100%;
+  max-width: 100px;
 }
 
 #languages {
   background-color: #f8f8f8;
+}
+
+.language__name {
+  bottom: 0;
+  transform: translateX(-50%);
+  display: none;
+  position: absolute;
+  padding: 5px;
+}
+
+.language:hover .language__name {
+  transform: scale(1);
 }

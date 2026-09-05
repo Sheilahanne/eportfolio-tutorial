@@ -14,20 +14,20 @@
     <nav>
       <div class="personal__logo">Sheilah Panvini</div>
       <ul class="nav__link--list">
-        <li>
-          <a href="" class="
+        <li class="nav__link">
+          <a href="#languages" class="
               nav__link--anchor
               link__hover-effect
               link__hover-effect--black">Languages</a>
         </li>
-        <li>
-          <a href="" class="
+        <li class="nav__link">
+          <a href="#projects" class="
               nav__link--anchor
               link__hover-effect
               link__hover-effect--black">Project</a>
         </li>
-        <li>
-          <a href="" class="
+        <li class="nav__link">
+          <a href="#contact" class="
               nav__link--anchor
               nav__link--anchor-primary">Contact</a>
         </li>
@@ -64,50 +64,150 @@
       </div>
     </div>
   </section>
- <section id="languages">
+  <section id="languages">
     <div class="container">
-        <h1 class="section__title">This is my technology stack</h1>
-        <div class="language__list">
-            <div class="language-row">
-                <figure class="language__img--wrapper">
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/3/38/HTML5_Badge.svg" class="language__img" alt="HTML">
-                    <span class="language__name">HTML</span>
-                </figure>
-                <figure class="language__img--wrapper">
-                    <img src="https://cdn.iconscout.com/icon/free/png-256/css-131-722685.png" class="language__img" alt="CSS">
-                    <span class="language__name">CSS</span>
-                </figure>
-                <figure class="language__img--wrapper">
-                    <img src="https://cdn.iconscout.com/icon/free/png-256/javascript-1-225993.png" class="language__img" alt="JavaScript">
-                    <span class="language__name">JavaScript</span>
-                </figure>
-                <figure class="language__img--wrapper">
-                    <img src="https://cdn.iconscout.com/icon/free/png-256/typescript-3521774-2945272.png" class="language__img" alt="TypeScript">
-                    <span class="language__name">TypeScript</span>
-                </figure>
-            </div>
-            <div class="language-row">
-                <figure class="language__img--wrapper">
-                    <img src="https://cdn.iconscout.com/icon/free/png-256/vue-282497.png" class="language__img" alt="Vue.js">
-                    <span class="language__name">Vue.js</span>
-                </figure>
-                <figure class="language__img--wrapper">
-                    <img src="https://cdn.iconscout.com/icon/free/png-256/react-3-1175109.png" class="language__img" alt="React">
-                    <span class="language__name">React</span>
-                </figure>
-                <figure class="language__img--wrapper">
-                    <img src="https://mobx.js.org/img/mobx.png" class="language__img" alt="MobX">
-                    <span class="language__name">MobX</span>
-                </figure>
-                <figure class="language__img--wrapper">
-                    <img src="https://cdn.iconscout.com/icon/free/png-256/nuxt-dot-js-3628959-3030184.png" class="language__img" alt="Nuxt.js">
-                    <span class="language__name">Nuxt.js</span>
-                </figure>
-            </div>
+      <h1 class="section__title">This is my <span class="text--purple">technology stack</span></h1>
+      <div class="language__list">
+        <div class="language-row">
+          <figure class="language__img--wrapper">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/3/38/HTML5_Badge.svg" class="language__img"
+              alt="HTML">
+            <span class="language__name">HTML</span>
+          </figure>
+          <figure class="language__img--wrapper">
+            <img src="https://cdn.iconscout.com/icon/free/png-256/css-131-722685.png" class="language__img" alt="CSS">
+            <span class="language__name">CSS</span>
+          </figure>
+          <figure class="language__img--wrapper">
+            <img src="https://cdn.iconscout.com/icon/free/png-256/javascript-1-225993.png" class="language__img"
+              alt="JavaScript">
+            <span class="language__name">JavaScript</span>
+          </figure>
+          <figure class="language__img--wrapper">
+            <img src="https://cdn.iconscout.com/icon/free/png-256/typescript-3521774-2945272.png" class="language__img"
+              alt="TypeScript">
+            <span class="language__name">TypeScript</span>
+          </figure>
         </div>
+        <div class="language-row">
+          <figure class="language__img--wrapper">
+            <img src="https://cdn.iconscout.com/icon/free/png-256/vue-282497.png" class="language__img" alt="Vue.js">
+            <span class="language__name">Vue.js</span>
+          </figure>
+          <figure class="language__img--wrapper">
+            <img src="https://cdn.iconscout.com/icon/free/png-256/react-3-1175109.png" class="language__img"
+              alt="React">
+            <span class="language__name">React</span>
+          </figure>
+          <figure class="language__img--wrapper">
+            <img src="https://mobx.js.org/img/mobx.png" class="language__img" alt="MobX">
+            <span class="language__name">MobX</span>
+          </figure>
+          <figure class="language__img--wrapper">
+            <img src="https://cdn.iconscout.com/icon/free/png-256/nuxt-dot-js-3628959-3030184.png" class="language__img"
+              alt="Nuxt.js">
+            <span class="language__name">Nuxt.js</span>
+          </figure>
+        </div>
+      </div>
     </div>
-</section>
-
+  </section>
+  <section id="projects">
+    <div class="container">
+      <div class="row">
+        <h1 class="section__title">Here are some of my <span class="text--purple">projects</span></h1>
+        <ul class="project__list">
+          <li class="project">
+            <div class="project__wrapper">
+              <img src="./assets/loopit.png" class="project__img" alt="">
+              <div class="project__description">
+                <h3 class="project__description--title">Loopit</h3>
+                <h4 class="project__description--sub-title">HTML, CSS, JavaScript, Vue, Vuex</h4>
+                <p class="project__description--para">A social media app for sharing and discovering content.</p>
+                <div class="project__description--links">
+                  <a href="https://www.github.com" class="project__description--link">
+                    <i class="fa-brands fa-github"></i>
+                  </a>
+                  <a href="https://www.mywebsite.com" class="project__description--link">
+                    <i class="fa-solid fa-link"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="project">
+            <div class="project__wrapper">
+              <img src="./assets/loopit.png" class="project__img" alt="">
+              <div class="project__description">
+                <h3 class="project__description--title">Loopit</h3>
+                <h4 class="project__description--sub-title">HTML, CSS, JavaScript, Vue, Vuex</h4>
+                <p class="project__description--para">A social media app for sharing and discovering content.</p>
+                <div class="project__description--links">
+                  <a href="https://www.github.com" class="project__description--link">
+                    <i class="fa-brands fa-github"></i>
+                  </a>
+                  <a href="https://www.mywebsite.com" class="project__description--link">
+                    <i class="fa-solid fa-link"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="project">
+            <div class="project__wrapper">
+              <img src="./assets/loopit.png" class="project__img" alt="">
+              <div class="project__description">
+                <h3 class="project__description--title">Loopit</h3>
+                <h4 class="project__description--sub-title">HTML, CSS, JavaScript, Vue, Vuex</h4>
+                <p class="project__description--para">A social media app for sharing and discovering content.</p>
+                <div class="project__description--links">
+                  <a href="https://www.github.com" class="project__description--link">
+                    <i class="fa-brands fa-github"></i>
+                  </a>
+                  <a href="https://www.mywebsite.com" class="project__description--link">
+                    <i class="fa-solid fa-link"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <div class="row footer__row">
+      <a href="#" class="footer__anchor">
+        <figure class="footer__logo">
+          <img src="./assets/logo.svg" class="footer__logo--img" alt="Footer Logo">
+        </figure>
+        <span class="footer__logo--popper">
+          Top
+          <i class="fas fa-arrow-up"></i>
+        </span>
+      </a>
+      <div class="footer__social--list">
+        <a href="https://www.linkedin.com" class="
+            footer__social--link
+            link__hover-effect
+            link__hover-effect--white">GitHub</a>
+        <a href="https://www.linkedin.com" class="
+            footer__social--link
+            link__hover-effect
+            link__hover-effect--white">GitHub</a>
+        <a href="https://www.linkedin.com" class="
+            footer__social--link
+            link__hover-effect
+            link__hover-effect--white">GitHub</a>
+        <a href="./assets/Example Resume.pdf" class="
+            footer__social--link
+            link__hover-effect
+            link__hover-effect--white" target="_blank">Resume</a>
+      </div>
+      <div class="footer__copyright">Copyright © 2024 Sheilah Panvini. All rights reserved.</div>
+    </div>
+  </footer>
+  </div>
 </body>
 
 </html>
